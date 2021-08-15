@@ -1,0 +1,40 @@
+package selAug2021week1.day2;
+
+import java.util.Arrays;
+
+public class LearnArrys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// integer array
+		int[] arrNum = {34,203,5,78,100,1000,1};
+		
+		// index:
+		// to access the element the third element
+		
+		int value = arrNum[2];
+		System.out.println(" Third value :"+ value);
+		
+		// To get the number of elements in an array
+		 int lengthArr = arrNum.length;
+		 System.out.println(" Length of array:" + lengthArr);
+		 
+		 
+		 for (int i = 0; i <= arrNum.length-1; i++) {
+			 System.out.println("arrNum[" + i + "]=" + arrNum[i] );
+		 }
+		 
+		 // Sort the array
+		 Arrays.sort(arrNum);
+		 System.out.println(" sorted array");
+		 for (int i = 0; i <= arrNum.length-1; i++) {
+			 System.out.println("arrNum[" + i + "]=" + arrNum[i] );
+		 }
+		 
+		 
+
+	}
+
+}
